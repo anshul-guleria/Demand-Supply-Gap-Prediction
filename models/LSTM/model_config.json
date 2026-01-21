@@ -1,0 +1,15 @@
+{
+    "window_size": 30,
+    "features": [
+        "demand_scaled",
+        "lag_1",
+        "lag_7",
+        "lag_14",
+        "rolling_7",
+        "month",
+        "quarter",
+        "festival_flag"
+    ],
+    "frequency": "D",
+    "target": "demand"
+}

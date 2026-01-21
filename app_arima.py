@@ -8,7 +8,6 @@ from datetime import datetime
 import matplotlib.pyplot as plt
 from PIL import Image
 
-
 st.set_page_config(
     page_title="ARIMA / SARIMA Forecast Dashboard",
     layout="wide"
@@ -119,6 +118,7 @@ display_metrics(selected_entry["metrics"])
 with st.expander("Show Full Metrics Table"):
     df = pd.json_normalize(metrics_data)
     st.dataframe(df, use_container_width=True)
+
 
 #Visualizations
 st.subheader("📈 Model Visualizations")
